@@ -2,6 +2,7 @@ import React from 'react';
 import logo from './test.png';
 import './App.css';
 import Gallery from './carousel.js';
+import {FaInstagram} from 'react-icons/fa'
 
 function App() {
   return (
@@ -13,6 +14,9 @@ function App() {
         <div>{Gallery()}</div>
         <footer> <small>Est 2022</small>
           <div>Contact: info@roanokebakery.com</div>
+          <a target="_blank" href="https://www.instagram.com/shannonknight3074/">
+          <img className="sm_icon" src={require("./photos/insta.png")}/>
+</a>
         </footer>
       </header>
     </div>
