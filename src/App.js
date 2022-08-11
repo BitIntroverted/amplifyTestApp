@@ -9,10 +9,11 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <h1>Roanoke Bakery Coming Soon...</h1>
-        <h3>Custom Cake Orders</h3>
-        <h6>Contact: info@roanokebakery.com</h6>
+        <h3><em>Custom Cake & Cookie Orders</em></h3>
         <div>{Gallery()}</div>
-        <footer>Est 2022</footer>
+        <footer> <small>Est 2022</small>
+          <div>Contact: info@roanokebakery.com</div>
+        </footer>
       </header>
     </div>
   );
